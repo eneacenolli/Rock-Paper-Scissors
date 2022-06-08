@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(219, 219, 243);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(19, 43, 78);
+  padding: 40px 50px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.img_player {
+  display: flex;
+  height: 200px;
+  padding: 10px;
+  margin-top: 100px;
+  flex: 1;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+#rock_player {
+  border: solid black;
+  border-radius: 8px;
+}
+
+#paper_player {
+  border: solid black;
+  border-radius: 8px;
+}
+
+#scissors_player {
+  border: solid black;
+  border-radius: 8px;
+}
+
+.player {
+  text-align: left;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#player_choise {
+  padding-bottom: 50px;
+}
+
+.comp {
+  display: flex;
+  height: 200px;
+  padding: 10px;
+  margin-top: 100px;
+  flex: 1;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+#img_comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 150px;
+}
+
+.computer_score {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.final_winner {
+  text-align: center;
+  font-size: 90px;
+  font-style: italic;
+  margin-top: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.final_result {
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font: 2.5em sans-serif;
+  margin: 30px auto 30px auto;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
